@@ -10,7 +10,6 @@ body {
 /* hero */
 .hero {
   position: relative;
-  top: 10px;
   background: linear-gradient(to bottom, #0a0a0a, #111);
   height: 100vh;
   display: flex;
@@ -47,7 +46,7 @@ body {
 
 .title {
   font-family: 'UnifrakturCook', cursive;
-  font-size:5.7rem;
+  font-size:70px;
   color: #1aff00;
   text-shadow: 0 0 10px #00ff88;
   z-index: 12;
@@ -56,6 +55,7 @@ body {
 .tagline {
   color: #ccc;
   font-size: 1.2rem;
+  margin-top: 10px;
   text-shadow: 0 0 6px #00ff88;
 }
 
@@ -88,11 +88,11 @@ body {
   position: absolute;
   width: 120px;
   height: 120px;
-  background: radial-gradient(circle, rgba(255,255,255,0.15) 0%, rgba(255,255,255,0.05) 100%);
   border-radius: 50%;
   filter: blur(3px);
   opacity: 0.5;
   animation: float 60s linear infinite;
+  z-index: 5;
 }
 .cloud-1 {
   top: 20%;
