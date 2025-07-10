@@ -98,14 +98,14 @@ body {
   top: 20%;
   left: -150px;
   animation-delay: 0s;
-  animation-duration: 80s;
+  animation-duration: 180s;
 }
 
 .cloud-2 {
   top: 50%;
   left: -200px;
   animation-delay: 10s;
-  animation-duration: 100s;
+  animation-duration: 150s;
 }
 
 .cloud-3 {
