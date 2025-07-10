@@ -10,6 +10,7 @@ body {
 /* hero */
 .hero {
   position: relative;
+  top: 10px;
   background: linear-gradient(to bottom, #0a0a0a, #111);
   height: 100vh;
   display: flex;
@@ -55,7 +56,6 @@ body {
 .tagline {
   color: #ccc;
   font-size: 1.2rem;
-  margin-top: 10px;
   text-shadow: 0 0 6px #00ff88;
 }
 
