@@ -27,8 +27,21 @@ body {
 
 .logo {
   max-width: 200px;
-  filter: drop-shadow(0 0 20px #1aff00);
-  animation: float 1.2s ease-out;
+  animation: logoGlow 2.5s ease-in-out infinite alternate;
+  filter: drop-shadow(0 0 15px #00ff88);
+}
+
+@keyframes logoGlow {
+  0% {
+    filter: drop-shadow(0 0 10px #00ff88) brightness(1);
+  }
+  50% {
+    filter: drop-shadow(0 0 20px #00ff88) brightness(1.2);
+  }
+  100% {
+    filter: drop-shadow(0 0 35px #1aff00) brightness(1.4);
+  }
+
 }
 
 .title {
@@ -36,6 +49,7 @@ body {
   font-size:5.7rem;
   color: #1aff00;
   text-shadow: 0 0 10px #00ff88;
+  z-index: 12;
 }
 
 .tagline {
@@ -76,7 +90,7 @@ body {
   height: 120px;
   background: radial-gradient(circle, rgba(255,255,255,0.15) 0%, rgba(255,255,255,0.05) 100%);
   border-radius: 50%;
-  filter: blur(20px);
+  filter: blur(3px);
   opacity: 0.5;
   animation: float 60s linear infinite;
 }
@@ -142,7 +156,7 @@ body {
 }
 
 .model-image img {
-  max-width: 250px;
+  height: 250px;
   border-radius: 12px;
   border: 3px solid #1aff00;
   box-shadow: 0 0 15px #00ff88;
